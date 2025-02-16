@@ -55,7 +55,6 @@ export default function Calculate() {
           value={calValue}
           onChange={(e) => {
             setCalValue(Number(e.target.value));
-            e.target.value = calValue;
           }}
           style={{
             outline: "0",
